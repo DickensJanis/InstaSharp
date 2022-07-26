@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>InstaSharp</id>
+        <version>2.0.6</version>
+        <title>InstaSharp</title>
+        <authors>Burke Holland,Felipe Fujiy</authors>
+        <owners>Burke Holland,Felipe Fujiy</owners>
+        <projectUrl>http://instasharp.github.io/InstaSharp/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>InstaSharp is a wrapper around the Instagram API. It's goal is to provide you with a clean and neat interface for ineracting with Instagram's data services, while taking care of all the lower level things like HTTP requests, OAuth flow, and mapping the JSON request to .NET classes.</description>
+        <summary>InstaSharp is a C# library that wraps the Instagram API and makes it easy to write applications with Instagram data.</summary>
+        <releaseNotes>.NET Standard.
+Removed deprecated APIs.</releaseNotes>
+        <copyright>Copyright 2016</copyright>
+        <tags>Instagram REST API</tags>
+        <dependencies>
+            <dependency id="Portable.BouncyCastle" version="1.8.1.1" />
+            <dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\InstaSharp.dll" target="lib\netstandard1.2\InstaSharp.dll" />
+    </files>
+</package>

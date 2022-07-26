@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.2</TargetFramework>
+    <Version>2.0.6</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Description>InstaSharp is a wrapper around the Instagram API. It's goal is to provide you with a clean and neat interface for ineracting with Instagram's data services, while taking care of all the lower level things like HTTP requests, OAuth flow, and mapping the JSON request to .NET classes.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Felipe Fujiy Pessoto, Burke Holland</Authors>
+    <PackageProjectUrl>http://instasharp.github.io/InstaSharp/</PackageProjectUrl>
+    <PackageReleaseNotes>.NET Standard 1.2</PackageReleaseNotes>
+    <PackageTags>Instagram REST API C# SDK</PackageTags>
+    <RepositoryUrl>https://github.com/InstaSharp/InstaSharp</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.8.1.1" />
+  </ItemGroup>
+
+</Project>
